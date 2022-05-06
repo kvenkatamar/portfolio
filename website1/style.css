@@ -125,6 +125,7 @@ section .home .btn{
     justify-items: center;
     border-radius: 20px;
     background-color: antiquewhite;
+    box-shadow: 8px 8px rgb(162, 159, 159);
 }
 
 .services ul li img{
@@ -156,7 +157,7 @@ section .clients::before{
     background: url("images/img2.jpg") no-repeat center/cover;
     position: absolute;
     width: 100%;
-    height: 260px;
+    height: 253px;
     z-index: -1;
     opacity: 0.3;
 }
@@ -194,7 +195,7 @@ section .contact::before{
     background: url("images/img3.jpg") no-repeat center/cover;
     position: absolute;
     width: 100%;
-    height: 520px;
+    height: 550px;
     z-index: -1;
     opacity: 0.3;
 }
@@ -206,6 +207,10 @@ section .contact::before{
     margin: 20px 0px;
     position: relative;
     right: -84%;
+}
+
+.contact input[type='text']{
+    padding: 5px;
 }
 
 footer{
@@ -277,7 +282,7 @@ footer{
     }
 
     section .clients::before{
-        height: 200px;
+        height: 191px;
     }
 
     .clients ul{
