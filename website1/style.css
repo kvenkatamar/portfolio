@@ -69,6 +69,7 @@ section .home{
 section .home::before{
     content: "";
     background: url("images/img1.jpg") no-repeat center/cover;
+    filter: blur(2px);
     position: absolute;
     top: 0;
     width: 100%;
