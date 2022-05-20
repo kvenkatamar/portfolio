@@ -1,0 +1,95 @@
+*{
+    font-family: 'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif;
+    margin: 0px;
+    padding: 0px;
+}
+
+header{
+    background-color: black;
+    color: white;
+    width: 100%;
+}
+
+#navbar ul{
+    display: flex;
+    align-items: center;
+    height: 3.5rem;
+    padding: 0px 3rem;
+}
+
+#navbar li{
+    list-style-type: none;
+    padding: 20px;
+}
+
+#navbar li a{
+    text-decoration: none;
+    color: white;
+    font-size: 1.2rem;
+    font-weight: bolder;
+    padding: 0px 10px;
+    border-radius: 10px;
+}
+
+#navbar li a:hover{
+    background-color: rgb(255, 255, 255);
+    color: black;
+}
+
+body::before{
+    content: "";
+    width: 100%;
+    height: 120%;
+    top: 0px;    
+    position: absolute;
+    background: url('../static/gym.jpg') no-repeat center;
+    background-size: 100%;
+    z-index: -1;
+
+}
+
+.container{
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+    border-radius: 50px;
+    width: 700px;
+    margin: 50px auto;
+    /* background: linear-gradient(90deg, #edc0bf 0,#c4caef 58%); */
+	/* -webkit-backdrop-filter: blur(10px); */
+    background: rgba(143, 138, 138, 0.155);
+	backdrop-filter: blur(10px);
+}
+
+.container .offer{
+    /* background-color: orange; */
+    background: rgba(255, 166, 0, 0.708);
+	backdrop-filter: blur(10px);
+    color: white;
+    margin: 10px;
+    padding: 10px;
+    border-radius: 10px;
+}
+
+input, textarea{
+    display: block;
+    width: 500px;
+    margin: 10px;
+    padding: 10px;
+    border: none;
+    border-radius: 15px;
+}
+
+.btn{
+    display: block;
+    margin: 10px auto;
+    padding: 10px;
+    background: rgba(255, 166, 0, 0.708);
+	backdrop-filter: blur(10px);
+    color: white;
+    border: none;
+    border-radius: 5px;
+    font-weight: bolder;
+    cursor: pointer;
+}
