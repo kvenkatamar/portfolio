@@ -1,0 +1,19 @@
+{
+  "name": "signup",
+  "version": "1.0.0",
+  "description": "This the signup page for instagram clone",
+  "main": "app.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "author": "Venkat Amar",
+  "license": "ISC",
+  "dependencies": {
+    "body-parser": "^1.20.0",
+    "express": "^4.18.1",
+    "expresss": "0.0.0",
+    "mongoose": "^6.3.8",
+    "nodemon": "^2.0.16",
+    "pug": "^3.0.2"
+  }
+}
